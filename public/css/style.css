@@ -1,0 +1,448 @@
+body {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+#title {
+    
+    background-image: url("../Images/Svatebni_video_BG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+
+}
+
+#video-showcase {
+    padding:  0 2%;
+    text-align: center;
+}
+
+#kontakt-info {
+    
+    padding: 2rem 0 20rem 0;
+    background-color:#D6E9F5;
+}
+
+#footer {
+    padding:  3rem 1rem .5rem 1rem;
+    background-color: #03506F;
+    color: white; 
+    
+}
+
+
+
+@media screen and (max-width: 3000px) {
+
+    /* menu  */
+
+    .menu-bg {
+        background-color: #03506F;
+        
+    }
+
+    .inicials-text {
+        font-size: 2rem;
+    }
+
+    .text-menu{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+
+
+
+
+    /* title part  */
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: .4rem;
+    }
+
+    .second-title {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: .8rem;
+    }
+
+    .main-title {
+        padding: 19rem 0 ;
+    
+    }
+
+    .position-title {
+        
+        margin-left: 20rem;
+
+    }
+
+    .logo-title {
+        width: 18rem;
+        opacity: 80%;
+
+    }
+
+    .text-title {
+        position: absolute;
+        display:inline;
+        margin: 6rem 0 0 0 ;
+        
+    }
+
+
+
+    /* video part | iframe youtube videos | Svatební videa */
+
+    .cover-img {
+        width: 15rem;
+    }
+
+    .modal-size{
+        max-width: 1000px;
+    }
+
+    .modal-settings {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: none;
+        background-clip: padding-box;
+
+        border-radius: 1.5rem;
+        outline: 0;
+    }
+
+    .closeButton {
+        float: right;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1;
+        color:white;
+        border:none;
+        background-color: transparent;
+    }
+
+    .closeButton:hover{
+        opacity: .6;
+    }
+
+   
+    .video-size{
+        width: 55rem;
+        height: 32rem;
+        border: 0;
+        border-radius: 1rem;   
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: .2rem;
+    }
+
+    .datum-svatby{
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: .8rem;
+    }
+
+    .verca-pepa{ 
+        margin: 10rem 70rem 0 0; 
+        display:inline-block;
+    }
+
+    .verca-pepa:hover{
+        opacity: .8;
+    }
+
+
+    .verca-pepa-text {
+        position: absolute;
+        display: inline-table;
+        margin: 5rem 0 0 2rem;
+        color:black; 
+    }
+
+    .tomas-jana{
+        margin: 5rem 0 0 60rem;
+        display:inline-block;
+    }
+
+    .tomas-jana-text{
+        position: relative;
+        display: inline-table;
+        margin: 0 0 0 2rem;
+        color:black;
+    }
+
+    .klaus-vlasta{
+        margin: 10rem 50rem 10rem 0;
+        display:inline-block;
+    }
+
+    .klaus-vlasta-text{
+        position: absolute;
+        display: inline-table;
+        margin: 5rem 0 0 2rem;
+        color:black;
+    }
+
+
+    /* Kontakt Informace   */
+
+    .kameraman-img{
+        width: 25rem;
+        padding: 2rem 2rem 2rem 5rem;  
+        opacity: .9;
+
+    }
+
+    .kameraman-oMne{
+        padding: 5rem 0;
+        
+    }
+
+    .kameraman-paragraph{
+        position: absolute;
+        display:inline;
+        padding: 0 0 0 2rem;
+        
+    }
+
+    .kameraman-text{
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: .1rem;
+        padding: 1rem 3rem 1rem 0;
+
+    }
+
+    /* Footer */
+
+    .prava{
+        text-align: center;
+        color: #0679A7;
+    }
+
+}
+
+
+
+
+
+
+
+/* @media screen and (max-width: 960px) {
+
+        .logo-title {
+            width: 30%;
+        
+        }
+        
+        .text-title {
+            position: relative;
+            display:inline-block;
+            margin: 10% 0 0 0 ;
+
+        }
+
+        .position-title {
+        
+            margin-left: 5rem;
+        
+        }
+
+        .main-title {
+            padding: 12rem 0 8rem 0 ;
+            
+        }
+
+        .video-space {
+            padding: 5rem 0 ;
+        
+        }
+        
+        .video-size{
+            width: 30rem;
+            height: 18rem;
+        }
+        
+} */
+
+
+
+
+
+/* for Mobile */
+
+@media screen and (max-width: 540px) {
+
+    .main-title {
+
+        padding: 12rem 0 ;
+    
+    }
+
+
+    .logo-title {
+        width: 50%;
+        text-align: center;
+    
+    }
+
+    h1 {
+        font-size: 2rem;
+        
+    }
+    
+    .text-title {
+        position: relative;
+        display:inline-block;
+        margin: 5% 0 0 0 ;
+
+    }
+
+    .second-title {
+        font-size: .9rem;
+        letter-spacing: .6rem;
+    }
+
+    .position-title {
+        text-align: center;
+        margin-left: 0; 
+        
+    }
+
+    
+    
+    /* video part | iframe youtube videos | Svatební videa */
+
+    .cover-img {
+        width: 8rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+    }
+
+    
+
+    .datum-svatby{
+        font-size: .8rem;
+        letter-spacing: .5rem;
+    }
+
+    .video-size{
+        width: 21rem;
+        height: 14rem;
+        
+    }
+
+    .modal-size{
+        max-width: 538px;
+        margin: 8rem 0;
+    }
+   
+    .closeButton {
+        float:none;
+        font-size: 4rem;
+        display: none;
+       
+    }
+
+    .verca-pepa{    
+        margin: 5rem 0;
+        
+        
+    }
+    
+    .verca-pepa-text {
+        position: relative;
+        display: inline-table;
+        margin: 0 0 0 .5rem;
+        
+    }
+    
+    .tomas-jana{
+        margin: 5rem 0;
+    }
+    
+    .tomas-jana-text{
+        position: relative;
+        display: inline-table;
+        margin: 0 0 0 .5rem;
+    
+    }
+    
+    .klaus-vlasta{
+        margin: 5rem 0;
+    
+    }
+    
+    .klaus-vlasta-text{
+        position: relative;
+        display: inline-table;
+        margin: 0 0 0 .5rem;
+    }
+    
+    /* Kontakt Informace   */
+
+    #kontakt-info {
+        padding:0;
+        text-align: center;
+       
+    }
+
+    .kameraman-img{
+        width: 16rem;
+        padding: 3rem 0; 
+        margin: 0 auto 0 auto; 
+        opacity: .9;
+        
+
+    }
+
+    .kameraman-oMne{
+        padding: 5rem 0;
+        font-size: 1.5rem;
+        
+    }
+
+    .kameraman-paragraph{
+        position: relative;
+        display:inline-block;
+        padding: 0 0 5rem 0;
+        
+    }
+
+    .kameraman-text{
+        letter-spacing: .1rem;
+        padding: 0 2rem;
+    }
+
+    /* Footer */
+
+    #footer {
+        padding:  2rem 1rem .1rem 1rem;
+        text-align: center;
+        
+        
+    }
+
+    
+    
+  }

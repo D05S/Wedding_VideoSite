@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSVideography</title>
+
+    <!-- css styles -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- java script -->
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- title -->
+    <section id="title">
+        <div class="top-container">
+           
+            <!-- nav bar -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark menu-bg">
+                <a class="navbar-brand inicials-text" href="#">DSV</a>
+                
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                        <a class="nav-link text-menu" href="#video-showcase">Svatební videa</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-menu" href="#kontakt-info">O mně</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-menu" href="#">Kontakt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-menu" href="Docu/D05S_Videography.pdf" target="_blenk">Ceník</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </nav>
+
+            <div data-aos="zoom-in" data-aos-duration="2000">
+                <div class="main-title">
+                    <div class="position-title">
+                        <img src="/Images/LOGO_camera.png" alt="logo title velke" class="logo-title">
+                        <div class="text-title">
+                            <h1>DOMINIK SAUER</h1>
+                            <p class="second-title">SVATEBNÍ KAMERAMAN</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-showcase">
+
+       <!-- Animace -->
+        <div data-aos="fade-down" data-aos-duration="1200">
+
+            <!-- modal youtube showcase -->
+
+            <a href="#"  data-toggle="modal" data-target="#videoModal-a">
+                <div class="verca-pepa" >
+                    <img src="/Images/Medailonek_P&V.jpg" alt="Svatba Verči a Pepi" class="cover-img">
+                    <div class="verca-pepa-text">
+                        <h3>VERČA & PEPA</h3>
+                        <p class="datum-svatby">27.06.2020</p>
+                    </div>
+                </div>    
+            </a>
+
+            <div class="modal fade" id="videoModal-a" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+                <div class="modal-dialog modal-size">
+                    <div class="modal-settings">
+                        <div class="modal-body modal-custom">
+                            <button type="button" class="closeButton" data-dismiss="modal" aria-hidden="true">
+                                <i class="bi bi-x-square-fill"></i>
+                            </button>
+                            <div>
+                                <iframe class="video-size" src="https://www.youtube.com/embed/0YLTocji_Pk"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animace -->
+        <div data-aos="fade-down" data-aos-duration="1500">
+
+            <!-- modal youtube showcase -->
+
+            <a href="#myModal" data-toggle="modal" data-target="#videoModal-b">
+                <div class="tomas-jana video-modal">
+                    <img src="/Images/Medailonek_T&J.jpg" alt="Svatba Tomáše a Jany" class="cover-img">
+                    <div class="tomas-jana-text">
+                        <h3>JANA & TOMÁŠ</h3>
+                        <p class="datum-svatby">20.06.2020</p>
+                    </div>
+                </div>
+            </a>
+
+            <div class="modal fade" id="videoModal-b" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+                <div class="modal-dialog modal-size">
+                    <div class="modal-settings">
+                        <div class="modal-body modal-custom">
+                            <button type="button" class="closeButton" data-dismiss="modal" aria-hidden="true">
+                                <i class="bi bi-x-square-fill"></i>
+                            </button>
+                            <div id="video-b">
+                                <iframe class="video-size" src="https://www.youtube.com/embed/Ii5N6YEACkY"></iframe></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animace -->
+        <div data-aos="fade-down" data-aos-duration="1800">
+
+            <!-- modal youtube showcase -->
+
+            <a href="#"  data-toggle="modal" data-target="#videoModal-c">
+                <div class="klaus-vlasta">
+                    <img src="/Images/Medailonek_K&V.jpg" alt=" Svatba Vlasty a Klause" class="cover-img">
+                    <div class="klaus-vlasta-text">
+                        <h3>VLASTA & KLAUS</h3>
+                        <p class="datum-svatby">15.12.2018</p>
+                    </div>
+                </div>
+            </a>
+
+            <div class="modal fade" id="videoModal-c" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+                <div class="modal-dialog modal-size">
+                    <div class="modal-settings">
+                        <div class="modal-body modal-custom">
+                            <button type="button" class="closeButton" data-dismiss="modal" aria-hidden="true">
+                                <i class="bi bi-x-square-fill"></i>
+                            </button>
+                            <div>
+                                <iframe class="video-size" src="https://www.youtube.com/embed/hUVq0t2Pvpo"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="kontakt-info">
+
+        <img src="Images/Ja-kameraman.png" alt="DominikSauerKameraman" class="kameraman-img">
+
+        <div class="kameraman-paragraph">
+
+            <!-- Nutno zkontrolovat gramatiku !!! -->
+            <h3 class="kameraman-oMne">- Něco málo o mně -</h3>
+            <p class="kameraman-text"> 
+                Baví mě hodně věcí, do jedné z nich spadá natáčení, především natáčení svatebních videí,
+                to jak je možné kamerou zachitit nějaký okamžit a pocit, proto jsem se začal věnovat svatebním videím.
+            </p>
+
+            <P class="kameraman-text">
+                Při natáčení svatby se snažím zachitit jak svatba probíhá a jaká je, pocity rodiny a přátel tak aby až se na video podíváte za 5, 10 let
+                aby jste si vzpoměli jaké to ten den bylo a kdo všechno tento den prožíval s Vámi.
+            </p>
+            
+            <p class="kameraman-text">
+                Pokud na mě budete mít nějaké otázky nebojte se mě kontaktovat, vše Vám rád zodpovím.
+            </p>
+            
+        </div>
+    </section>
+
+
+    <section id="footer">
+
+       
+        <p class="prava"> - 2021 © Dominik Sauer - </p>
+
+    </section>
+
+
+    <script>
+        AOS.init();    
+    </script>
+    <script src="index.js"></script>
+   
+
+</body>
+</html>
