@@ -36,7 +36,18 @@ body {
     
 }
 
+#kontakt {
+    position: center;
+}
 
+.ico {
+    text-align: center;
+}
+
+.btn {
+    background-color: #03506F;
+    border: 0;
+}
 
 @media screen and (max-width: 3000px) {
 
@@ -181,6 +192,10 @@ body {
         display:inline-block;
     }
 
+    .tomas-jana:hover {
+        opacity: .8;
+    }
+
     .tomas-jana-text{
         position: relative;
         display: inline-table;
@@ -191,6 +206,10 @@ body {
     .klaus-vlasta{
         margin: 10rem 50rem 10rem 0;
         display:inline-block;
+    }
+
+    .klaus-vlasta:hover{
+        opacity: .8;
     }
 
     .klaus-vlasta-text{

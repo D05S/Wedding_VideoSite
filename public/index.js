@@ -1,41 +1,16 @@
 
-
-// var tag = document.createElement('script');
-
-// tag.src = "https://www.youtube.com/iframe_api";
-// var firstScriptTag = document.getElementsByTagName('script')[0];
-// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-
 $(window).on("shown.bs.modal", function() {
     AOS.init({disable:true});
 });
 
-// var player;
+$("#videoModal-a").on('hidden.bs.modal', function (e) {
+    $("#videoModal-a iframe").attr("src", $("#videoModal-a iframe").attr("src"));
+});
 
-// function onYouTubeIframeAPIReady() {
-//      player = new YT.Player("video-b", {
-//          videoId: "Ii5N6YEACkY"
-//     });
-// }
+$("#videoModal-b").on('hidden.bs.modal', function (e) {
+    $("#videoModal-b iframe").attr("src", $("#videoModal-b iframe").attr("src"));
+});
 
-// function onPlayerReady(event) {
-//     event.target.playVideo();
-//   }
-
-// var done = false;
-// function onPlayerStateChange(event) {
-// if (event.data == YT.PlayerState.PLAYING && !done) {
-//       setTimeout(stopVideo, 6000);
-//       done = true;
-//     }
-// }
-
-
-// function stopVideo() {
-//     player.stopVideo();
-// }
-
-// $("#videoModal-b").on("hidden.bs.modal", function () {
-//     callPlayer("video-b", "stopVideo");
-// });
+$("#videoModal-c").on('hidden.bs.modal', function (e) {
+    $("#videoModal-c iframe").attr("src", $("#videoModal-c iframe").attr("src"));
+});

@@ -51,7 +51,8 @@
                         <a class="nav-link text-menu" href="#kontakt-info">O mně</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-menu" href="#">Kontakt</a>
+                             <!-- Button trigger modal Kontakt form-->
+                            <a class="nav-link text-menu" href="#" data-toggle="modal" data-target="#modalForm" >Kontakt</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-menu" href="Docu/D05S_Videography.pdf" target="_blenk">Ceník</a>
@@ -81,6 +82,7 @@
         <div data-aos="fade-down" data-aos-duration="1200">
 
             <!-- modal youtube showcase -->
+            <!-- Verča a Pepa -->
 
             <a href="#"  data-toggle="modal" data-target="#videoModal-a">
                 <div class="verca-pepa" >
@@ -112,6 +114,7 @@
         <div data-aos="fade-down" data-aos-duration="1500">
 
             <!-- modal youtube showcase -->
+            <!-- Jana a Tomáš -->
 
             <a href="#myModal" data-toggle="modal" data-target="#videoModal-b">
                 <div class="tomas-jana video-modal">
@@ -143,6 +146,7 @@
         <div data-aos="fade-down" data-aos-duration="1800">
 
             <!-- modal youtube showcase -->
+            <!-- Vlasta a Klaus -->
 
             <a href="#"  data-toggle="modal" data-target="#videoModal-c">
                 <div class="klaus-vlasta">
@@ -197,11 +201,76 @@
         </div>
     </section>
 
+    <!-- Kontaktní formulář -->
+    <section id="#kontakt">
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"> - Kontaktní formulář - </h5>
+                
+                </div>
+                <div class="modal-body">
+
+                    <form action="/" method="POST">
+                        <div class="form-row">
+                            
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Jméno</label>
+                            <input type="text" class="form-control" name="inputName" >
+                        </div>
+                        
+                        <div class="form-group col-md-6">
+                            <label for="inputSurname">Přijímení</label>
+                            <input type="text" class="form-control" name="inputSurname" >
+                        </div>
+        
+                        </div>
+                        <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" name="inputEmail" >
+                        </div>
+        
+                        <div class="form-group">
+                        <label for="inputWeddingDate">Datum Svatby</label>
+                        <input type="date" class="form-control" name="inputWeddingDate" >
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="inputText">Doplňující informace</label>
+                            <textarea class="form-control" name="inputText" rows="5"></textarea>
+                        </div>
+                        
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Odeslat</button>
+                        </div>
+                        
+                  </form>
+
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        
+           
+        
+       
+        
+
+
+    </section>
+
 
     <section id="footer">
 
+        <p class="ico"> - IČO: 09398775 - </p>
        
         <p class="prava"> - 2021 © Dominik Sauer - </p>
+
 
     </section>
 
